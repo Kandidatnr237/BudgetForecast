@@ -1,0 +1,21 @@
+---
+title: "Term paper ECON 4170 -- Documentation of the Forecast Shiny App"
+format: html
+editor: visual
+---
+
+## Introduction
+
+
+## Data
+
+
+## Tables
+
+
+## Testing for stationarity
+
+## Modeling
+
+
+## Building the Shiny app
