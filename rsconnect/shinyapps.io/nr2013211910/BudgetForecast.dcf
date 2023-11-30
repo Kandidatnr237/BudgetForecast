@@ -5,7 +5,7 @@ account: nr2013211910
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10510855
-bundleId: 7929821
+bundleId: 7931966
 url: https://nr2013211910.shinyapps.io/BudgetForecast/
 version: 1
 asMultiple: FALSE

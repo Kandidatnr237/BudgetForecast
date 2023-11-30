@@ -43,7 +43,7 @@ fn_train_model <- function( train, test){
 
 # 3) RMSE
 # Table
-fn_rmse <- function(meanfc, test){  sum( ((meanfc - test)^2)^0.5)  }
+fn_rmse <- function(meanfc, test){  mean( ((meanfc - test)^2)^0.5)  }
 
 #fn_rmse( a$`Holt winter`, train_test_ts[[2]] )
 

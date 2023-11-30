@@ -33,7 +33,7 @@ nav_data$fun_wrangle <- function(df){
         rename( kjonn = X1, alder = X2) |> 
         fill( kjonn, .direction = "down") |> 
         mutate( kjonn = ifelse( is.na(kjonn), "samlet", kjonn),
-                alder = str_remove(str_to_lower(alder), "??r") |> str_trim(side = "both")
+                alder = str_remove(str_to_lower(alder), "år") |> str_trim(side = "both")
         ) |> 
         filter( !is.na(alder), !str_detect(alder, "alt") ) |>
         pivot_longer( -c(kjonn,alder)) 
